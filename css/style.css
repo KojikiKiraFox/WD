@@ -79,22 +79,17 @@ h6 {
 	color: #34547a;
 }
 
-@keyframes rgb{
-	to{
-		transform: scaleY(30);
-	}
-}
 
 .logo {
 	font-family: 'Revalia', cursive;
 	font-size: 48px;
 	line-height: 60px;
 	color: #34547a;
+	transition: .3s;
 }
 
 .logo:hover{
-	animation: rgb;
-	animation-duration: 1s;
+	transform:translateY(-5px) scale(1.1);
 }
 
 .navigation {
